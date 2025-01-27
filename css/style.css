@@ -1,0 +1,22 @@
+a{
+  text-decoration: none;
+  color:rgb(0, 0, 0)
+}
+.itinerary{
+  color: black;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+H1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 5rem;
+}
+
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+}

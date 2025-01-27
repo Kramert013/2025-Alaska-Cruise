@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alaska-Cruise</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css"></link>
+
+</head>
+
+<body>
+  <div class="container" class="whole-page">
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-1 fw-bold">2025 Alaskan Cruise</span>
+      </a>
+    </header>
+  </div>
+ 
+
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="./images/Ship.PNG" class="d-block mx-lg-auto img-fluid" alt="Cruise ship" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h2 class="display-3 fw-bold text-body-emphasis 1h-2 mb-3">Join Us On An Alaskan Cruise!!!</h2>
+      <h3 class="display-12 center fw-bold text-body-emphasis lh-1 mb-3">May 29th - June 5th</h3>
+      <p class="lead">Travis and Em are embarking on an Alaskan cruise with Carnival Cruise Lines on the listed dates and would be thrilled to have you and your family join us on this relaxing vacation. Book on your own using the links
+        provided with all the cruise and our flight information here. If you need assistance reach out to Travis and he would be happy to assist you. </p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" >
+          <A href="https://www.cruises.com/b/c/category.do?countryCode=US&sailingId=755224&IncludeSeniorRates=false&IncludeMilitaryRates=true&IncludeAlumniRates=true&AlumniCruiseId=0&childAges=&numPaxAdult=2&numPaxChild=0&subscribeIndicator=null&fcc=null">Book Cruise</button></a>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+          <a class="itinerary" href="./Itinerary.html">Itinerary</button></a>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h2 class="display-4 fw-normal text-body-emphasis">Pricing</h2>
+    <p class="fs-5 text-body-secondary">Here is quick reference to the estimated price per room for two people in it, for the cruise only, from the website as of 01-25-2025. Note: prices may varry and change. For example: if you put 4 people in a room it will likely be a bit cheaper. </p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Interior</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><span id="totalPrice">$2,006.00</span><small class="text-body-secondary fw-light">/Room</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Listed price is for 2 people in the room</li>
+            <li>$1,003.00 per person</li>
+            <li>Cheapest way onto the ship</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">Ocean View</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><span id="totalPrice">$2,496.00</span><small class="text-body-secondary fw-light">/Room</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Listed price is for 2 people in the room</li>
+            <li>$1,248.00 per person</li>
+            <li>Un-obstructed view</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+        <div class="card-header py-3 text-bg-primary border-primary">
+          <h4 class="my-0 fw-normal">Balcony</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title"><span id="totalPrice">$2,986.00</span><small class="text-body-secondary fw-light">/Room</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Listed price is for 2 people in the room</li>
+            <li>$1,493.00 per person</li>
+            <li>Un-obstructed view</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Additional Support</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Travis' Travel Tips</h3>
+        <p>Here you can find some helpful tips and tricks that I have learned and wanted to share with you to make the most out of your experince. </p>
+        <a href=".//Travis-travel-tips.html" class="icon-link">
+          Click Here
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-suitcase2-fill" viewBox="0 0 16 16">
+            <path d="M6.5 0a.5.5 0 0 0-.5.5V3H4.5A1.5 1.5 0 0 0 3 4.5v9a1.5 1.5 0 0 0 1.003 1.416A1 1 0 1 0 6 15h4a1 1 0 1 0 1.996-.084A1.5 1.5 0 0 0 13 13.5v-9A1.5 1.5 0 0 0 11.5 3H10V.5a.5.5 0 0 0-.5-.5zM9 3H7V1h2zM4 7V6h8v1z"/>
+          </svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Packing List</h3>
+        <p>Here is a basic packing list to support you in getting ready and help make sure you dont miss anything. Also for optimization, see Travis' 3 tier packing system.  </p>
+        <a href="./Packing-list.html" class="icon-link">
+          Click Here
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-luggage-fill" viewBox="0 0 16 16">
+            <path d="M2 1.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V5h.5A1.5 1.5 0 0 1 8 6.5V7H7v-.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5H4v1H2.5v.25a.75.75 0 0 1-1.5 0v-.335A1.5 1.5 0 0 1 0 13.5v-7A1.5 1.5 0 0 1 1.5 5H2zM3 5h2V2H3z"/>
+            <path d="M2.5 7a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0v-5a.5.5 0 0 1 .5-.5m10 1v-.5A1.5 1.5 0 0 0 11 6h-1a1.5 1.5 0 0 0-1.5 1.5V8H8v8h5V8zM10 7h1a.5.5 0 0 1 .5.5V8h-2v-.5A.5.5 0 0 1 10 7M5 9.5A1.5 1.5 0 0 1 6.5 8H7v8h-.5A1.5 1.5 0 0 1 5 14.5zm9 6.5V8h.5A1.5 1.5 0 0 1 16 9.5v5a1.5 1.5 0 0 1-1.5 1.5z"/>
+          </svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">3 Tier Packing System</h3>
+        <p>The best packing method I have used to date and is designed for optimization and to be able to fit all your needs with room for sourvineers. </p>
+        <a href="./3-tier-packing.html" class="icon-link">
+          Click Here
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>      
+    </div>
+  </div>
+
+    <hr>
+
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/IMG_3287.PNG" class="d-block mx-lg-auto img-fluid" alt="Image of creator" width="300" height="100">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Me</h1>
+        <p class="lead">Here you can click and learn a litt about me and my travling experince, where I have been and see some of the places I have been.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"><a class="About-me" href="./About-me.html">Click Here</button></a></button>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+</body>
+
+</html>
